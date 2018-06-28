@@ -1,0 +1,180 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* Background color for Parallax img */
+
+.bgcolor {
+
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-bottom:8px;
+	border-radius:4px;
+	font-weight:bold;
+}
+
+
+/* Button Begin */
+
+.begin:hover {
+
+	transition: font-size 1s;
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+.no-padding-top {
+
+	padding-top:0;
+}
+
+/* 4 big buttons */
+
+.icon-block .material-icons:hover {
+	color:#64ffda;
+	cursor:pointer;
+
+}
+
+.margin{
+
+	padding-left:50px;
+}
+
+/* Right Fixed Nav */
+
+.right-nav {
+
+background-color: rgba(0, 0, 0, 0.3);
+min-height:1000px;
+
+}
+
+ /*Custom Fonts*/
+
+ @font-face {
+  font-family: Indesign;
+  src: url(/assets/fonts/Indesign.ttf);
+  font-weight: bold;
+
+}
+
+
+.indesign-logo {
+font-family: Indesign;
+font-size: 5em;
+font-weight:bold;
+}
+
+
+nav ul a, nav .brand-logo {
+  color: #fff;
+
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* Mobile trigger button */
+
+.sidenav-trigger {
+  color: #64ffda;
+
+
+}
+
+.sidenav-trigger:hover {
+  color: #b4cada;
+}
+
+nav ul a:hover {
+
+  color:#64ffda;
+  font-weight:bold;
+  text-shadow: 2px 2px black;
+
+}
+
+.backgndbtn {
+
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius:25px;
+	margin-top:5px;
+
+}
+
+/* Left Nav on Mobile */
+
+#nav-mobile li a:hover i{
+	color:#64ffda;
+
+}
+
+/* ScrollSpy */
+
+li a.scrollLink.active{
+
+	color:#64ffda;
+}
+
+/* Parallax Intro */
+
+.parallax-container-intro {
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container-intro .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container-intro .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+}
+
+
+/* Normal Parallax */
+
+.parallax-container {
+  min-height: 320px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}

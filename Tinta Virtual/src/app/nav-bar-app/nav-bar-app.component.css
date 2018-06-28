@@ -1,0 +1,24 @@
+/* 4 big buttons */
+
+.icon-block .material-icons:hover {
+	color:#64ffda;
+	cursor:pointer;
+
+}
+
+/* Big Button Animation */
+
+#start .icon-block h2 i:hover
+{
+
+	transform: rotate(-350deg);
+}
+
+/*Font Size Buttons */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
