@@ -1,4 +1,4 @@
 # Angular
 My first Angular App
-Run Node.js Terminal
-'npm install'
+<br>Run Node.js Terminal
+'npm install' to install
